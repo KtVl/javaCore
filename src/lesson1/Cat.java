@@ -12,6 +12,9 @@ public class Cat extends Animal {
     }
 
     public void eat(Plate plate) {
+        if (plate.food < appetite) {
+            throw new EmptyFoodInPlate();
+        }
         plate.decreaseFood(appetite);
     }
 }
