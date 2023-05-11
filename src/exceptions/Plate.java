@@ -1,4 +1,4 @@
-package lesson1;
+package exceptions;
 
 public class Plate {
     public int food;

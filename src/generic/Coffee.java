@@ -1,4 +1,4 @@
-package lesson2;
+package generic;
 
 public class Coffee implements Liquid {
 }

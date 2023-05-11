@@ -1,4 +1,4 @@
-package lesson1;
+package exceptions;
 
 public class Parrot extends Bird {
     public Parrot(String newName, String newColor, int newAge, int height) {

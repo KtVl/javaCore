@@ -1,4 +1,4 @@
-package lesson2;
+package generic;
 import java.util.Arrays;
 
 public class Lesson2 {

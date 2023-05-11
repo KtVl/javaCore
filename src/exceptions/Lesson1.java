@@ -1,6 +1,7 @@
-package lesson1;
+package exceptions;
 
 public class Lesson1 {
+    // Exceptions - исключения
     public static void main(String[] args) {
         Cat firstCat = new Cat("Мышкин", "Белый", 5);
         Dog firstDog = new Dog("Бобик", "Черный", 10);

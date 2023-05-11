@@ -1,4 +1,4 @@
-package lesson1;
+package exceptions;
 
 public class Exception {
     public static void main(String[] args) {

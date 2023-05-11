@@ -1,4 +1,4 @@
-package lesson1;
+package exceptions;
 
 public class Snake extends Animal {
     public Snake(int age, String name, String color) {

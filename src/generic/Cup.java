@@ -1,4 +1,4 @@
-package lesson2;
+package generic;
 /*
 E — элемент (Element, обширно используется Java Collections Framework)
 K — Ключ

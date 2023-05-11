@@ -1,4 +1,4 @@
-package lesson2;
+package generic;
 
 public class Plate<T extends Meat, S extends Vegetables> {
     private T firstPart;

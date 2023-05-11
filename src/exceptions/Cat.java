@@ -1,4 +1,4 @@
-package lesson1;
+package exceptions;
 
 public class Cat extends Animal {
     public int appetite;
