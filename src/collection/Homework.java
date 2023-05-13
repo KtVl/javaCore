@@ -40,6 +40,9 @@ public class Homework {
         System.out.println(phoneBook.getPhonesBy("Левицкий"));
         System.out.println(phoneBook.getPhonesBy("Барышев"));
 
+        line();
+
+        phoneBook.print();
     }
 
 

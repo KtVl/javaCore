@@ -26,6 +26,13 @@ public class PhoneBook {
             phoneToName.put(phone, name);
         }
 
+        // распечатать все значения
+        public void print() {
+            for (Map.Entry<String, String> entry : phoneToName.entrySet()) {
+                System.out.print(entry.getValue() + " : " + entry.getKey() +  "\n");
+            }
+        }
+
         // искать номер телефона по фамилии.
         public ArrayList<String> getPhonesBy(String name) {
             ArrayList<String> result = new ArrayList<>();
