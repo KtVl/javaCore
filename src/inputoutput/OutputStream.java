@@ -1,3 +1,5 @@
+package inputoutput;
+
 import java.io.FileOutputStream;
 import java.nio.charset.StandardCharsets;
 
@@ -17,7 +19,7 @@ public class OutputStream {
 
         // или записать проще
         try (FileOutputStream fileOutputStream = new FileOutputStream("bye.txt", true)) {
-            byte[] dataByte = "bye bye bye".getBytes(StandardCharsets.UTF_8);
+            byte[] dataByte = " bye bye bye ".getBytes(StandardCharsets.UTF_8);
             fileOutputStream.write(dataByte);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
