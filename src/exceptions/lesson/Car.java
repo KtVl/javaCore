@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.lesson;
 
 public class Car implements Movable {
     public void move() {

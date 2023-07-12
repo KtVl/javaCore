@@ -1,6 +1,6 @@
-import exceptions.Cat;
-import exceptions.EmptyFoodInPlate;
-import exceptions.Plate;
+import exceptions.lesson.Cat;
+import exceptions.lesson.EmptyFoodInPlate;
+import exceptions.lesson.Plate;
 
 public class Main {
     public static void main(String[] args) {

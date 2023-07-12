@@ -1,4 +1,6 @@
-package exceptions;
+package exceptions.lesson;
+
+import exceptions.lesson.Bird;
 
 public class Parrot extends Bird {
     public Parrot(String newName, String newColor, int newAge, int height) {

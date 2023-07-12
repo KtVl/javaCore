@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.lesson;
 
 public abstract class Animal implements Movable {
     // Animal this = *адрес_объекта*

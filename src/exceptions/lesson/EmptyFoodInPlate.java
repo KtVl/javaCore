@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.lesson;
 
 public class EmptyFoodInPlate extends RuntimeException{ //наследуется от класса исключений
     @Override

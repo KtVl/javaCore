@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.lesson;
 
 public enum Fruits {
     orange,

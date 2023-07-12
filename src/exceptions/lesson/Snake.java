@@ -1,4 +1,6 @@
-package exceptions;
+package exceptions.lesson;
+
+import exceptions.lesson.Animal;
 
 public class Snake extends Animal {
     public Snake(int age, String name, String color) {
